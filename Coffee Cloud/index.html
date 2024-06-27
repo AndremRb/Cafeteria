@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Cloud</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png" type="image/png">
+</head>
+<body>
+    <header class="topbar">
+        <img src="img/Loja cap.jpg" alt="Cooffe Cloud">
+        <h1 id="Loja"><em>Coffee Cloud</em></h1>
+        <div class="topbar-links">
+            <a href="">Home</a>
+            <a href="#produtos">Produtos</a>
+            <a href="">Contato</a>
+        </div>
+    </header>
+    <!-- espaço que a topbar preenche -->
+    <div style="height: 100px"></div>
+    <section class="container-center">
+        <section id="header-descricao">
+            <div class="texto">
+                <h1>Nosso café</h1>
+                <p>
+                    Feito com o mais puro grão, representa
+                    o que há de mais belo na experiência de tomar café,
+                    trazendo uma sensação única em cada toque.
+                </p>
+            </div>
+        </section>
+        <section id="produtos">
+            <h1 style="text-align: center;">Produtos</h1>
+            <div style="display: flex; justify-content: center;" id="div-produtos">
+                <!-- os produtos serão inseridos automaticamente aqui através da função setProdutos -->
+            </div>
+            <h2>conheça mais os nossos produtos</h2>
+            <p id="produto-descricao">(posicione o mouse sob uma de nossas opções para exibir a descrição)</p>
+        </section>
+    </section>
+    <footer id="footer">
+        <div style="margin: 0;">
+            <p>Formas de pagamento</p>
+            <img src="img/footer/formas-2.png">
+        </div>
+        <div>
+            <p>00.000.000/0000-00 <br> Rua São José de Algum Lugar <br> 12345-678</p>
+        </div>
+        <div>
+            <p>Clique e acesse nossas Redes Sociais!</p>
+            <button onclick="popupMidias('WhastApp')" style="border: 0; background-color: rgba(255, 255, 255, 0);"><img src="img/footer/whatsapp.png"></button>
+            <button onclick="popupMidias('Instagram')" style="border: 0; background-color: rgba(255, 255, 255, 0);"><img src="img/footer/instagram.png"></button>
+        </div>
+    </footer>
+</body>
+</html>
